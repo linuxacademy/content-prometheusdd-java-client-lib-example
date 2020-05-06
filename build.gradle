@@ -7,6 +7,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'io.prometheus:simpleclient:0.8.1'
+    implementation 'io.prometheus:simpleclient_httpserver:0.8.1'
     testImplementation 'junit:junit:4.12'
 }
 
